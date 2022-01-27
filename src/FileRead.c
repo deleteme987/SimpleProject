@@ -17,5 +17,10 @@ main() {
    fgets(buff, 255, (FILE*)fp);
    printf("3: %s\n", buff );
    fclose(fp);
+   
+   // Double defintion:
+   double d = 3.4;
+   // float definition:
+   float f = 3.0;
 
 }
